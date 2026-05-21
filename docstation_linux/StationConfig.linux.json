@@ -1,0 +1,31 @@
+{
+  "station_id": "Dock-01",
+  "storage_root": "/mnt/docstation_archive",
+  "database_path": "data/docstation.sqlite3",
+  "mount_root": "/mnt/docstation",
+  "device_ini_path": "Device.ini",
+  "dock_slots_path": "DockSlots.json",
+  "vendor_vid": "4255",
+  "vendor_pid": "0001",
+  "switch_to_disk_delay_ms": 5000,
+  "disk_settle_ms": 2500,
+  "switch_timeout_sec": 75,
+  "max_parallel_imports": 6,
+  "max_parallel_imports_per_hub": 3,
+  "copy_buffer_mb": 4,
+  "hash_during_copy": true,
+  "import_delete_source": false,
+  "web_host": "0.0.0.0",
+  "web_port": 8765,
+  "file_extensions": [
+    ".mp4",
+    ".mov",
+    ".avi",
+    ".mkv",
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".wav",
+    ".aac"
+  ]
+}
